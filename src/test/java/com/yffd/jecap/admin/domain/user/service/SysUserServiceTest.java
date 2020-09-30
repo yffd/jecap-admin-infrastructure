@@ -1,8 +1,8 @@
-package com.yffd.jecap.admin.domain.sys.user.service;
+package com.yffd.jecap.admin.domain.user.service;
 
 import com.alibaba.fastjson.JSON;
 import com.yffd.jecap.admin.AdminBaseTest;
-import com.yffd.jecap.admin.domain.sys.user.entity.SysUser;
+import com.yffd.jecap.admin.domain.user.entity.SysUser;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import java.util.List;
 @Slf4j
 public class SysUserServiceTest extends AdminBaseTest {
     @Autowired
-    private SysUserService sysUserDomainService;
+    private SysUserDomainService sysUserDomainService;
 
     @Test
     public void addTest() {

@@ -2,16 +2,14 @@ package com.yffd.jecap.admin.application.service.user;
 
 import com.alibaba.fastjson.JSON;
 import com.yffd.jecap.admin.AdminBaseTest;
-import com.yffd.jecap.admin.domain.sys.user.entity.SysUser;
+import com.yffd.jecap.admin.domain.user.entity.SysUser;
 import com.yffd.jecap.common.base.result.RtnResult;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.List;
-
 public class SysUserAppServiceTest extends AdminBaseTest {
     @Autowired
-    private SysUserAppService sysUserAppService;
+    private SysUserService sysUserAppService;
 
     @Test
     public void addTest() {

@@ -2,7 +2,7 @@ package com.yffd.jecap.admin.infrastructure.dao;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.yffd.jecap.admin.domain.sys.user.entity.SysUser;
+import com.yffd.jecap.admin.domain.user.entity.SysUser;
 import com.yffd.jecap.common.base.dao.mybatis.MybatisplusBaseDao;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.annotations.Mapper;
